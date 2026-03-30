@@ -165,3 +165,4 @@ app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle))
 
 print("🤖 GPT翻译机器人已启动...")
 app.run_polling()
+print("🔥 FINAL VERSION RUNNING 🔥")
